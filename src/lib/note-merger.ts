@@ -105,8 +105,9 @@ export function mergeNotes(parsed: RawNote[]): PhpData {
 
   // Long-term goals: keyed by text fingerprint (first 60 chars)
   const ltGoals = new Map<string, Partial<Goal & { text: string }>>();
-  // Short-term goals: keyed by position index
-  const stGoals = new Map<number, Partial<Goal & { text: string }>>();
+  // Short-term goals: keyed by "posIdx:textFingerprint" so distinct goals at the same
+  // position slot (across sessions) are each preserved rather than the earlier one being lost.
+  const stGoals = new Map<string, { posIdx: number; data: Partial<Goal & { text: string }> }>();
 
   for (const note of sorted) {
     if (note.patient_name && !patient) {
@@ -136,16 +137,14 @@ export function mergeNotes(parsed: RawNote[]): PhpData {
 
     for (let idx = 0; idx < note.short_term_goals.length; idx++) {
       const step = note.short_term_goals[idx];
-      const existing = stGoals.get(idx) ?? {};
-      const newText = (step as Record<string, unknown>)["text"];
-      // If the goal text changed at this position, it's a new goal — reset accumulated data
-      const base: Record<string, unknown> =
-        newText != null && newText !== existing["text"] ? {} : existing;
+      const text = ((step as Record<string, unknown>)["text"] as string | undefined) ?? "";
+      const key = `${idx}:${text.slice(0, 60)}`;
+      const existing = stGoals.get(key) ?? { posIdx: idx, data: {} };
       for (const field of GOAL_FIELDS) {
         const v = (step as Record<string, unknown>)[field];
-        if (v != null) base[field] = v;
+        if (v != null) (existing.data as Record<string, unknown>)[field] = v;
       }
-      stGoals.set(idx, base);
+      stGoals.set(key, existing);
     }
   }
 
@@ -165,8 +164,7 @@ export function mergeNotes(parsed: RawNote[]): PhpData {
     });
   }
 
-  for (const idx of [...stGoals.keys()].sort((a, b) => a - b)) {
-    const s = stGoals.get(idx)!;
+  for (const { data: s } of [...stGoals.values()].sort((a, b) => a.posIdx - b.posIdx)) {
     if (!s.text) continue;
     goals.push({
       text: s.text,

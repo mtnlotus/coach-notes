@@ -94,7 +94,8 @@ export function mergeNotes(parsed) {
     let dischargePlan;
     // Long-term goals: keyed by text fingerprint (first 60 chars)
     const ltGoals = new Map();
-    // Short-term goals: keyed by position index
+    // Short-term goals: keyed by "posIdx:textFingerprint" so distinct goals at the same
+    // position slot (across sessions) are each preserved rather than the earlier one being lost.
     const stGoals = new Map();
     for (const note of sorted) {
         if (note.patient_name && !patient) {
@@ -133,16 +134,15 @@ export function mergeNotes(parsed) {
         }
         for (let idx = 0; idx < note.short_term_goals.length; idx++) {
             const step = note.short_term_goals[idx];
-            const existing = stGoals.get(idx) ?? {};
-            const newText = step["text"];
-            // If the goal text changed at this position, it's a new goal — reset accumulated data
-            const base = newText != null && newText !== existing["text"] ? {} : existing;
+            const text = step["text"] ?? "";
+            const key = `${idx}:${text.slice(0, 60)}`;
+            const existing = stGoals.get(key) ?? { posIdx: idx, data: {} };
             for (const field of GOAL_FIELDS) {
                 const v = step[field];
                 if (v != null)
-                    base[field] = v;
+                    existing.data[field] = v;
             }
-            stGoals.set(idx, base);
+            stGoals.set(key, existing);
         }
     }
     const goals = [];
@@ -160,8 +160,7 @@ export function mergeNotes(parsed) {
             start_date: g.start_date,
         });
     }
-    for (const idx of [...stGoals.keys()].sort((a, b) => a - b)) {
-        const s = stGoals.get(idx);
+    for (const { data: s } of [...stGoals.values()].sort((a, b) => a.posIdx - b.posIdx)) {
         if (!s.text)
             continue;
         goals.push({
