@@ -3475,7 +3475,7 @@
             {
               "code" : "readiness-assessment",
               "display" : "Readiness assessment",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3539,7 +3539,7 @@
             {
               "code" : "importance",
               "display" : "Importance of change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3596,7 +3596,7 @@
             {
               "code" : "confidence",
               "display" : "Confidence to change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3652,7 +3652,7 @@
             {
               "code" : "readiness-assessment",
               "display" : "Readiness assessment",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3716,7 +3716,7 @@
             {
               "code" : "importance",
               "display" : "Importance of change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3773,7 +3773,7 @@
             {
               "code" : "confidence",
               "display" : "Confidence to change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3829,7 +3829,7 @@
             {
               "code" : "readiness-assessment",
               "display" : "Readiness assessment",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3893,7 +3893,7 @@
             {
               "code" : "importance",
               "display" : "Importance of change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -3950,7 +3950,7 @@
             {
               "code" : "confidence",
               "display" : "Confidence to change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -4006,7 +4006,7 @@
             {
               "code" : "readiness-assessment",
               "display" : "Readiness assessment",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -4070,7 +4070,7 @@
             {
               "code" : "importance",
               "display" : "Importance of change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },
@@ -4127,7 +4127,7 @@
             {
               "code" : "confidence",
               "display" : "Confidence to change",
-              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts"
+              "system" : "http://hl7.org/fhir/us/pco/CodeSystem/readiness-assessment-concepts-temporary"
             }
           ]
         },

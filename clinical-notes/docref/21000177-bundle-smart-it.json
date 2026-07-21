@@ -1,0 +1,1280 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgwpx2Vmk",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2008-01-01T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79MfR7Lthx",
+            "display": "Dr. Alysia661 Schmeler639 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Alysia661 Schmeler639 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-5pFm5BMDhNp",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 9955"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 9955",
+        "content": [
+          {
+            "attachment": {
+              "id": "6063979",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A11yNAl3QzeL",
+              "title": "NOTE",
+              "creation": "2008-01-01T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj3q5lj"
+            }
+          ],
+          "period": {
+            "start": "2008-01-01T00:04:22Z",
+            "end": "2008-01-01T01:03:02Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6016"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6016"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgwpx2Vmk"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7PsgwsJUQhu",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2011-01-04T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79MfR7Lthx",
+            "display": "Dr. Alysia661 Schmeler639 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Alysia661 Schmeler639 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-5pFm5BMDhNp",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 1934"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 1934",
+        "content": [
+          {
+            "attachment": {
+              "id": "114675",
+              "contentType": "text/plain",
+              "url": "Binary/4-gmNbyMiAw2JLry7fvg8xjXHdlBF4",
+              "title": "NOTE",
+              "creation": "2011-01-04T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj3qMol"
+            }
+          ],
+          "period": {
+            "start": "2011-01-04T00:04:22Z",
+            "end": "2011-01-04T00:37:55Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 7687"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 7687"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7PsgwsJUQhu"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7PsgwsLllqU",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2014-02-06T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 9913"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 9913",
+        "content": [
+          {
+            "attachment": {
+              "id": "7443473",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JWTgkfA1r",
+              "title": "NOTE",
+              "creation": "2014-02-06T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj65EW3"
+            }
+          ],
+          "period": {
+            "start": "2014-02-06T00:04:22Z",
+            "end": "2014-02-06T00:19:22Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 3848"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 3848"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7PsgwsLllqU"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7PsgwsLm2tW",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2014-04-07T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 1464"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 1464",
+        "content": [
+          {
+            "attachment": {
+              "id": "7148991",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13J2VNX9Xrl",
+              "title": "NOTE",
+              "creation": "2014-04-07T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj65VZ5"
+            }
+          ],
+          "period": {
+            "start": "2014-04-07T00:04:22Z",
+            "end": "2014-04-07T00:19:22Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6084"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6084"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7PsgwsLm2tW"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgx1dQpjO",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2016-05-24T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 6145"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 6145",
+        "content": [
+          {
+            "attachment": {
+              "id": "9385961",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10eM7H2Hunx",
+              "title": "NOTE",
+              "creation": "2016-05-24T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj679rH"
+            }
+          ],
+          "period": {
+            "start": "2016-05-24T00:04:22Z",
+            "end": "2016-05-24T01:20:06Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6710"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6710"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgx1dQpjO"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgx1fh4fq",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2017-04-15T00:49:03Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 139"
+            }
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "id": "3224842",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JC924sqO2",
+              "title": "NOTE",
+              "creation": "2017-04-15T00:49:03Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj8LkVX"
+            }
+          ],
+          "period": {
+            "start": "2017-04-15T00:49:02Z",
+            "end": "2017-04-15T01:04:02Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 7490"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 7490"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgx1fh4fq"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgx1hxafK",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2018-01-30T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79MfR7Lthx",
+            "display": "Dr. Alysia661 Schmeler639 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Alysia661 Schmeler639 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-5pFm5BMDhNp",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 3114"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 3114",
+        "content": [
+          {
+            "attachment": {
+              "id": "9532891",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10eg06B916H",
+              "title": "NOTE",
+              "creation": "2018-01-30T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj8MIbb"
+            }
+          ],
+          "period": {
+            "start": "2018-01-30T00:04:22Z",
+            "end": "2018-01-30T00:57:56Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6540"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6540"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgx1hxafK"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgx1hy8lO",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2018-04-13T04:40:38Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 4677"
+            }
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "id": "1546430",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10efObRRheS",
+              "title": "NOTE",
+              "creation": "2018-04-13T04:40:38Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLuj8MZed"
+            }
+          ],
+          "period": {
+            "start": "2018-04-13T04:40:37Z",
+            "end": "2018-04-13T04:55:37Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 9525"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 9525"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgx1hy8lO"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7PsgwzRBNIQ",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2020-05-26T00:04:23Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 7458"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 7458",
+        "content": [
+          {
+            "attachment": {
+              "id": "4537597",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A0zKAJAIHsDX",
+              "title": "NOTE",
+              "creation": "2020-05-26T00:04:23Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLujAcGV1"
+            }
+          ],
+          "period": {
+            "start": "2020-05-26T00:04:22Z",
+            "end": "2020-05-26T01:07:37Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6544"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6544"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7PsgwzRBNIQ"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7Psgx8fQQTS",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2021-03-31T09:57:31Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 6624"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 6624",
+        "content": [
+          {
+            "attachment": {
+              "id": "3393409",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JMGwJuMmH",
+              "title": "NOTE",
+              "creation": "2021-03-31T09:57:31Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLujAd5e7"
+            }
+          ],
+          "period": {
+            "start": "2021-03-31T09:57:30Z",
+            "end": "2021-03-31T10:12:30Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 7758"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 7758"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7Psgx8fQQTS"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "4-6XdS7PsgxB0lK7W",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "70004-7"
+            }
+          ],
+          "text": "DIAGNOSTIC STUDY NOTE"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ],
+            "text": "Clinical Note"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75",
+          "display": "Wiegand, Truman"
+        },
+        "date": "2021-04-03T02:57:31Z",
+        "author": [
+          {
+            "reference": "Practitioner/4-Nn79Mgdgi7wX",
+            "display": "Dr. Luis923 Bergstrom287 MD"
+          }
+        ],
+        "authenticator": {
+          "display": "Dr. Luis923 Bergstrom287 MD"
+        },
+        "custodian": {
+          "reference": "Organization/4-O3d8XKfHpSmy",
+          "display": "TEST VAMC"
+        },
+        "relatesTo": [
+          {
+            "code": "appends",
+            "target": {
+              "reference": "DocumentReference/4-6XdS7PsgwpulikE",
+              "display": "TEST RelatesTo:  Case # 9562"
+            }
+          }
+        ],
+        "description": "TEST Description:  Case # 9562",
+        "content": [
+          {
+            "attachment": {
+              "id": "7795201",
+              "contentType": "text/plain",
+              "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13K0Y431oob",
+              "title": "NOTE",
+              "creation": "2021-04-03T02:57:31Z"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/4-1abOMcLujAdMh9"
+            }
+          ],
+          "period": {
+            "start": "2021-04-03T02:57:30Z",
+            "end": "2021-04-03T04:05:47Z"
+          },
+          "facilityType": {
+            "text": "CLINIC"
+          },
+          "practiceSetting": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+                "display": "TEST practiceSetting:  Case # 6544"
+              }
+            ],
+            "text": "TEST practiceSetting:  Case # 6544"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/4-6XdS7PsgxB0lK7W"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A11yNAl3QzeL",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMDgtMDEtMDEKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDI1IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIHNvY2lhbCBpc29sYXRpb24gKGZpbmRpbmcpLCBzdHJlc3MgKGZpbmRpbmcpLgoKU29jaWFsIEhpc3RvcnkKUGF0aWVudCBpcyBtYXJyaWVkLiBQYXRpZW50IGhhcyBuZXZlciBzbW9rZWQuClBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuCgpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLgpQYXRpZW50IGhhcyBjb21wbGV0ZWQgc29tZSBjb2xsZWdlIGNvdXJzZXMuClBhdGllbnQgY3VycmVudGx5IGhhcyBVbml0ZWRIZWFsdGhjYXJlLgoKQWxsZXJnaWVzCk5vIEtub3duIEFsbGVyZ2llcy4KCk1lZGljYXRpb25zCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4KCkFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggZnVsbC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLgoKUGxhbg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A11yNAl3QzeL"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-gmNbyMiAw2JLry7fvg8xjXHdlBF4",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTEtMDEtMDQKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDI4IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIHNvY2lhbCBpc29sYXRpb24gKGZpbmRpbmcpLCBzdHJlc3MgKGZpbmRpbmcpLgoKU29jaWFsIEhpc3RvcnkKUGF0aWVudCBpcyBtYXJyaWVkLiBQYXRpZW50IGhhcyBuZXZlciBzbW9rZWQuClBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuCgpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLgpQYXRpZW50IGhhcyBjb21wbGV0ZWQgc29tZSBjb2xsZWdlIGNvdXJzZXMuClBhdGllbnQgY3VycmVudGx5IGhhcyBVbml0ZWRIZWFsdGhjYXJlLgoKQWxsZXJnaWVzCk5vIEtub3duIEFsbGVyZ2llcy4KCk1lZGljYXRpb25zCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4KCkFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggcGFydC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLgoKUGxhbg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-gmNbyMiAw2JLry7fvg8xjXHdlBF4"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A13JWTgkfA1r",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTQtMDItMDYKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDMxIHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBzb2NpYWwgaXNvbGF0aW9uIChmaW5kaW5nKSwgc3RyZXNzIChmaW5kaW5nKS4KClNvY2lhbCBIaXN0b3J5ClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLgpQYXRpZW50IGlkZW50aWZpZXMgYXMgaGV0ZXJvc2V4dWFsLgoKUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4KUGF0aWVudCBoYXMgY29tcGxldGVkIHNvbWUgY29sbGVnZSBjb3Vyc2VzLgpQYXRpZW50IGN1cnJlbnRseSBoYXMgVW5pdGVkSGVhbHRoY2FyZS4KCkFsbGVyZ2llcwpObyBLbm93biBBbGxlcmdpZXMuCgpNZWRpY2F0aW9ucwpsaXNpbm9wcmlsIDEwIG1nIG9yYWwgdGFibGV0OyBldG9ub2dlc3RyZWwgNjggbWcgZHJ1ZyBpbXBsYW50OyBoeWRyb2NobG9yb3RoaWF6aWRlIDI1IG1nIG9yYWwgdGFibGV0CgpBc3Nlc3NtZW50IGFuZCBQbGFuCgoKUGxhbg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JWTgkfA1r"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A13J2VNX9Xrl",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTQtMDQtMDcKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDMxIHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBzb2NpYWwgaXNvbGF0aW9uIChmaW5kaW5nKSwgc3RyZXNzIChmaW5kaW5nKS4KClNvY2lhbCBIaXN0b3J5ClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLgpQYXRpZW50IGlkZW50aWZpZXMgYXMgaGV0ZXJvc2V4dWFsLgoKUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4KUGF0aWVudCBoYXMgY29tcGxldGVkIHNvbWUgY29sbGVnZSBjb3Vyc2VzLgpQYXRpZW50IGN1cnJlbnRseSBoYXMgVW5pdGVkSGVhbHRoY2FyZS4KCkFsbGVyZ2llcwpObyBLbm93biBBbGxlcmdpZXMuCgpNZWRpY2F0aW9ucwpsaXNpbm9wcmlsIDEwIG1nIG9yYWwgdGFibGV0OyBldG9ub2dlc3RyZWwgNjggbWcgZHJ1ZyBpbXBsYW50OyBoeWRyb2NobG9yb3RoaWF6aWRlIDI1IG1nIG9yYWwgdGFibGV0CgpBc3Nlc3NtZW50IGFuZCBQbGFuCgoKUGxhbg=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13J2VNX9Xrl"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A10eM7H2Hunx",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTYtMDUtMjQKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDMzIHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldAoKQXNzZXNzbWVudCBhbmQgUGxhbgoKClBsYW4KClRoZSBmb2xsb3dpbmcgcHJvY2VkdXJlcyB3ZXJlIGNvbmR1Y3RlZDoKLSByZW1vdmFsIG9mIHN1YmN1dGFuZW91cyBjb250cmFjZXB0aXZlCi0gaW5zZXJ0aW9uIG9mIHN1YmN1dGFuZW91cyBjb250cmFjZXB0aXZl"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10eM7H2Hunx"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A13JC924sqO2",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTctMDQtMTUKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM0IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldAoKQXNzZXNzbWVudCBhbmQgUGxhbgoKClBsYW4KClRoZSBwYXRpZW50IHdhcyBwcmVzY3JpYmVkIHRoZSBmb2xsb3dpbmcgbWVkaWNhdGlvbnM6Ci0ga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW0="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JC924sqO2"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A10eg06B916H",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTgtMDEtMzAKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM1IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldDsga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW0KCkFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbm90IGluIGxhYm9yIGZvcmNlIChmaW5kaW5nKS4KClBsYW4KUGF0aWVudCB3YXMgZ2l2ZW4gdGhlIGZvbGxvd2luZyBpbW11bml6YXRpb25zOiBpbmZsdWVuemEsIHNlYXNvbmFsLCBpbmplY3RhYmxlLCBwcmVzZXJ2YXRpdmUgZnJlZS4KVGhlIGZvbGxvd2luZyBwcm9jZWR1cmVzIHdlcmUgY29uZHVjdGVkOgotIG1lZGljYXRpb24gcmVjb25jaWxpYXRpb24gKHByb2NlZHVyZSkKLSBhc3Nlc3NtZW50IG9mIGhlYWx0aCBhbmQgc29jaWFsIGNhcmUgbmVlZHMgKHByb2NlZHVyZSkKLSBkZXByZXNzaW9uIHNjcmVlbmluZyAocHJvY2VkdXJlKQotIGRlcHJlc3Npb24gc2NyZWVuaW5nIHVzaW5nIHBhdGllbnQgaGVhbHRoIHF1ZXN0aW9ubmFpcmUgdHdvLWl0ZW0gc2NvcmUgKHByb2NlZHVyZSkKLSBhc3Nlc3NtZW50IG9mIHN1YnN0YW5jZSB1c2UgKHByb2NlZHVyZSkKLSBhc3Nlc3NtZW50IHVzaW5nIGFsY29ob2wgdXNlIGRpc29yZGVycyBpZGVudGlmaWNhdGlvbiB0ZXN0IC0gY29uc3VtcHRpb24gKHByb2NlZHVyZSkKVGhlIHBhdGllbnQgd2FzIHByZXNjcmliZWQgdGhlIGZvbGxvd2luZyBtZWRpY2F0aW9uczoKLSBoeWRyb2NobG9yb3RoaWF6aWRlIDI1IG1nIG9yYWwgdGFibGV0Ci0gbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldA=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10eg06B916H"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A10efObRRheS",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMTgtMDQtMTMKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM1IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIG5vdCBpbiBsYWJvciBmb3JjZSAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldDsga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW0KCkFzc2Vzc21lbnQgYW5kIFBsYW4KCgpQbGFuCgpUaGUgcGF0aWVudCB3YXMgcHJlc2NyaWJlZCB0aGUgZm9sbG93aW5nIG1lZGljYXRpb25zOgotIG1pcmVuYSA1MiBtZyBpbnRyYXV0ZXJpbmUgc3lzdGVt"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A10efObRRheS"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A0zKAJAIHsDX",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMjAtMDUtMjYKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM3IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIG5vdCBpbiBsYWJvciBmb3JjZSAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldDsga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW07IG51dmFyaW5nIDAuMTIvMC4wMTUgbWcgcGVyIDI0aHIgMjEgZGF5IHZhZ2luYWwgcmluZzsgbWlyZW5hIDUyIG1nIGludHJhdXRlcmluZSBzeXN0ZW0KCkFzc2Vzc21lbnQgYW5kIFBsYW4KCgpQbGFuCgpUaGUgZm9sbG93aW5nIHByb2NlZHVyZXMgd2VyZSBjb25kdWN0ZWQ6Ci0gcmVtb3ZhbCBvZiBzdWJjdXRhbmVvdXMgY29udHJhY2VwdGl2ZQotIGluc2VydGlvbiBvZiBzdWJjdXRhbmVvdXMgY29udHJhY2VwdGl2ZQ=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A0zKAJAIHsDX"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A13JMGwJuMmH",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMjEtMDMtMzEKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM4IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIG5vdCBpbiBsYWJvciBmb3JjZSAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldDsga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW07IG51dmFyaW5nIDAuMTIvMC4wMTUgbWcgcGVyIDI0aHIgMjEgZGF5IHZhZ2luYWwgcmluZzsgbWlyZW5hIDUyIG1nIGludHJhdXRlcmluZSBzeXN0ZW0KCkFzc2Vzc21lbnQgYW5kIFBsYW4KCgpQbGFuCgpUaGUgcGF0aWVudCB3YXMgcHJlc2NyaWJlZCB0aGUgZm9sbG93aW5nIG1lZGljYXRpb25zOgotIG1pcmVuYSA1MiBtZyBpbnRyYXV0ZXJpbmUgc3lzdGVt"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13JMGwJuMmH"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Binary",
+        "id": "4-2qdlUnFmP9dXuIqFh8A13K0Y431oob",
+        "contentType": "text/plain",
+        "securityContext": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "data": "CjIwMjEtMDQtMDMKCkNoaWVmIENvbXBsYWludApObyBjb21wbGFpbnRzLgoKSGlzdG9yeSBvZiBQcmVzZW50IElsbG5lc3MKRGVuaXNlNDcwIEJldHNleTExMAppcyBhIDM4IHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBmZW1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIG5vdCBpbiBsYWJvciBmb3JjZSAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmljdGltIG9mIGludGltYXRlIHBhcnRuZXIgYWJ1c2UgKGZpbmRpbmcpLCBjeXN0aXRpcywgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuCgpTb2NpYWwgSGlzdG9yeQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4KClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuClBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuCgpBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKTWVkaWNhdGlvbnMKbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldDsgbml0cm9mdXJhbnRvaW4gNSBtZy9tbCBvcmFsIHN1c3BlbnNpb247IGV0b25vZ2VzdHJlbCA2OCBtZyBkcnVnIGltcGxhbnQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldDsga3lsZWVuYSAxOS41IG1nIGludHJhdXRlcmluZSBzeXN0ZW07IG51dmFyaW5nIDAuMTIvMC4wMTUgbWcgcGVyIDI0aHIgMjEgZGF5IHZhZ2luYWwgcmluZzsgbWlyZW5hIDUyIG1nIGludHJhdXRlcmluZSBzeXN0ZW0KCkFzc2Vzc21lbnQgYW5kIFBsYW4KCgpQbGFuCgpUaGUgZm9sbG93aW5nIHByb2NlZHVyZXMgd2VyZSBjb25kdWN0ZWQ6Ci0gaW5zZXJ0aW9uIG9mIGludHJhdXRlcmluZSBjb250cmFjZXB0aXZlIGRldmljZQ=="
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Binary/4-2qdlUnFmP9dXuIqFh8A13K0Y431oob"
+      }
+    }
+  ]
+}
