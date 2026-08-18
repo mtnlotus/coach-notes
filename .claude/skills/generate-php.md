@@ -44,7 +44,7 @@ When the user invokes this skill:
 ## Notes
 
 - Font: Arial TTF from `/System/Library/Fonts/Supplemental/` (macOS).
-  On other platforms, update font paths in `src/generate_pdf.py` or the
+  On other platforms, update font paths in `src/lib/pdf-report.ts` or the
   generator falls back to built-in Helvetica.
 - Layout targets a single Letter page for a typical coaching arc (1 long-term
   goal, 1–3 action steps). Longer plans paginate automatically with the footer

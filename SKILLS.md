@@ -1,7 +1,8 @@
-# Coach Notes
+# Skill Reference
 
-Generate a **Personal Health Plan (PHP)** — including a patient-facing PDF and a FHIR R4 Bundle —
-from clinical progress notes recorded in the EHR.
+Full reference for the `coach-notes` pipeline: field extraction rules, FHIR resource mapping,
+PDF sections, and the Claude Code skill definitions in `.claude/skills/`. For a quick start, see
+[README.md](README.md); for design rationale, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 

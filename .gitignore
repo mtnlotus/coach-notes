@@ -7,12 +7,9 @@ dev-notes/
 # Generated artifacts (written to output/ by default)
 output/
 
-# Python
-src/__pycache__/
-*.pyc
-
 # Node.js / TypeScript
 node_modules/
+dist/
 
 # Unused template directory
 templates/
