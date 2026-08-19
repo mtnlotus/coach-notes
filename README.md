@@ -1,4 +1,4 @@
-# coach-notes
+# Health and Wellness Coach Notes
 
 Turn a Health & Wellness Coach's clinical progress notes into a **Personal Health Plan (PHP)** —
 a patient-facing PDF and a [FHIR R4](https://hl7.org/fhir/R4) Bundle conforming to the
